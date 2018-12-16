@@ -1,9 +1,9 @@
 import os
 import shutil
 
-source = os.walk(r'C:\Users\losth\Desktop\New folder')
-destnation = r"C:\Users\losth\Desktop\copied"
-num = 0
+source = os.walk(r'C:\Users\losth\Desktop\New folder') # original directory 
+destnation = r"C:\Users\losth\Desktop\copied" #where to be copied to
+num = 0 #counter for renaming
 
 
 for root, dirs, files in source:
